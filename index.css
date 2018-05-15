@@ -1,0 +1,122 @@
+body{
+	background-color: beige;
+} 
+
+
+
+#quizHeader{
+	font-size: 70px;
+	font-family: Comic Sans MS;
+	text-shadow: 1px 1px;
+}
+#start {
+	font-size: 60px;
+ 	border-radius:50px;
+ 	font-family: Comic Sans MS;
+ 	background-color: yellow;
+	text-shadow: 1px 1px;
+
+}
+#questions{
+	font-size:30px;
+	font-family: Comic Sans MS;
+text-shadow: 1px 1px;
+position:relative;
+
+}
+
+
+#questions1{
+	font-size:40px;
+	top:20px;
+	position: relative;
+	font-family: Comic Sans MS;
+	text-shadow: 1px 1px;
+
+
+}
+
+#results2{
+	position:relative;
+	font-size: 50px;
+	font-family:Comic Sans MS;
+}
+
+label{
+	font-size:30px;
+	margin: 20px;
+	font-family:Comic Sans MS;
+text-shadow: 1px 1px;
+	
+}
+
+
+#submitButton{
+	font-size:20px;
+	border-radius: 50px;
+	font-family:Comic Sans MS ;
+	background-color: orange;
+	box-shadow: 3px 3px;
+text-shadow: 1px 1px;
+
+}
+#restart{
+	font-size: 20px;
+	border-radius: 50px;
+	position:relative;
+	font-family:Comic Sans MS;
+background-color: red;
+box-shadow: 3px 3px;
+text-shadow:1px 1px;
+
+
+}
+#finalScore{
+	font-size:50px;
+	border-radius:50px;
+font-family: Comic Sans MS;
+background-color: orange;
+box-shadow: 3px 3px;
+text-shadow: 1px 1px;
+}
+ #next{
+ 	position:relative;
+ 	border-radius: 50px;
+	font-size: 20px;
+font-family:Comic Sans MS;
+background-color: orange;
+box-shadow: 3px 3px;
+text-shadow: 1px 1px;
+left:30px;
+}
+#explanations{
+	position: relative;
+	font-size: 30px;
+		font-family: Comic Sans MS;
+		text-shadow: 1px 1px;
+}
+
+
+
+ #results{
+ 	position: relative;
+ 	bottom:10px;
+ 	font-size: 40px;
+ 	font-family:Comic Sans MS;
+ 	text-shadow: 1px 1px;
+ 	margin-top:30px;
+ }
+ #score{
+ 	font-size:100px;
+ 	font-family:Comic Sans MS;
+ 	text-shadow: 1px 1px;
+ }
+ #results3{
+ 	position: relative;
+ 	top: 30px;
+ 	font-size:30px;
+ text-shadow: 1px 1px;
+ font-family:Comic Sans MS;
+
+ }
+ 
