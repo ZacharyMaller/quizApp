@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang= "en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
+  <main>
    <div id= "hidden">
    <h1 id='quizHeader'>Quiz</h1>
     <form id= 'form1'>
@@ -18,16 +20,17 @@
     
 
       <p id='choices'></p>
-     
+     <fieldset><legend>this is a legend</legend>l
       <input type='radio'  name='choicer' id='choice1'>
-    <label for='choice1'></label>
+    <label  for='choice1'>label1</label>
       <input type='radio'  name='choicer' id='choice2'>
-    <label for='choice2' ></label>
+    <label for='choice2' >label2</label>
        <input type='radio' name='choicer' id='choice3'>
-    <label for='choice3'></label>
+    <label for='choice3'>label3</label>
       <input type='radio'  name='choicer' id='choice4'>
-    <label for='choice4'></label>
+    <label for='choice4'>label4</label>
      <input type='submit' value='Submit Answer' id='submitButton'>
+      </fieldset>
       <button id='next'>Next Question</button>
      <div id= 'results'></div>
      <div id ='results3'></div>
@@ -42,7 +45,7 @@
     <br>
     
   <div id='imgContainer'> 
-  <img id='dynamicImg'>
+  <img id='dynamicImg' alt= "dynamic image">
   </div>
   
 </form>
@@ -55,6 +58,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-  </body>
+    <script src="index.js"></script>  
+  </main>
+    </body>
+
 </html>
